@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 
 // Keep a global registry of shortcode instances to print assets once in footer
 if (!isset($GLOBALS['wdp_prank_instances'])) {
-    $GLOBALS['wdp_prank_instances'] = [];
+    $GLOBALS['wdp_prank_instances'] = array();
 }
 
 /**
